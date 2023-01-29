@@ -1,15 +1,19 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
-  "version": "0.0.0",
-  "title": "CHANGE_ME",
+  "vendor": "tiendasjumboqaio",
+  "name": "jumbo-dinamic-banner",
+  "version": "0.0.1",
+  "title": "Dinamic-banner",
   "description": "CHANGE_ME",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "store": "0.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.store-graphql": "2.x"
+  },
   "registries": [
     "smartcheckout"
   ],

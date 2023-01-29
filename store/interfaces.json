@@ -1,0 +1,6 @@
+{
+  "dinamic-banner": {
+    "component": "DinamicBanner",
+    "render": "client"
+  }
+}

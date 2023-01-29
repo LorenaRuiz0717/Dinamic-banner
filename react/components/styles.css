@@ -1,0 +1,55 @@
+.deparment{
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  align-items:center
+}
+
+.deparmentHeader{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  color:white;
+  background-color:var(--emphasis);
+}
+
+.clickIcon{
+  top: 25%;
+  right: 37%;
+  position: absolute;
+  width: 2rem;
+  z-index: 1;
+}
+
+.closeIcon{
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.deparmentHidden{
+  background-color: var(--emphasis);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  align-items:center;
+  justify-content: center;
+}
+
+.container_deparment1{
+  width: 100%;
+}
+.container_deparment{
+width: 100%;
+display: flex;
+flex-direction: column;
+height: 40vh;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+}
